@@ -241,7 +241,65 @@ a {
    box-shadow: 0 0 5px #000;
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  .square {
+    width: 100%;
+    float: none;
+  }
+
+  .square .mask {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    padding-top: 15%;
+  }
+
+  .square .main-mask {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    top: 50%;
+  }
+
+  .square p.beatcove-name {
+    color: #5D1885;
+    font-size: 2.5em;
+  }
+
+  .square p.cinnamin-name {
+    color: #462607;
+  }
+
+  .beatcove {
+    color: #000;
+  }
+
+  .doodads {
+    color: #444;
+  }
+
+  .cinnamin {
+    color: #A58C7A;
+  }
+
+  .beatcove:hover .mask {
+    background: #000;
+  }
+
+  .doodads:hover .mask {
+    background: #444;
+  }
+
+  .cinnamin:hover .mask {
+    background: #A58C7A;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .square {
     width: 100%;
     float: none;
