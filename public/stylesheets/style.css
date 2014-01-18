@@ -129,17 +129,17 @@ body {
 }
 
 .beatcove:hover .mask {
-  background: #000 url(images/beatcove-blur.jpg) no-repeat;
+  background: #000 url(../images/beatcove-blur.jpg) no-repeat;
   background-size: cover;
 }
 
 .doodads:hover .mask {
-  background: #444 url(images/doodads-dark.jpg) no-repeat;
+  background: #444 url(../images/doodads-dark.jpg) no-repeat;
   background-size: cover;
 }
 
 .cinnamin:hover .mask {
-  background: #A58C7A url(images/cinnamin-blur.jpg) no-repeat;
+  background: #A58C7A url(../images/cinnamin-blur.jpg) no-repeat;
   background-size: cover;
 }
 
