@@ -47,10 +47,8 @@ body {
 .square .main-mask {
   width: 100%;
   height: 100%;
-  position: absolute;
   overflow: hidden;
-  top: 0;
-  left: 0;
+  padding-top: 3%;
 }
 
 .square .mask {
@@ -73,11 +71,6 @@ body {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-.square .main-mask {
-  padding-top: 3%;
-  top: 50%;
 }
 
 .square:hover .mask {
@@ -168,14 +161,13 @@ a {
   margin: 0;
 }
 
-.britt a:link, .britt a:visited {
+/*.britt a:link, .britt a:visited {
   color: #222;
 }
 
 .britt a:hover, .britt a:active {
   color: #222;
-  text-decoration: underline;
-}
+}*/
 
 .beatcove {
   background-color: #000;

@@ -3,7 +3,7 @@ function setElementHeights() {
   $(".container").css("height", height);
 
   var britt = $(".britt");
-  $(britt[0].children[0]).css("padding-top", height/6);
+  $(britt[0].children[0]).css("padding-top", height/7);
 
   $(".square").each(function(index, el) {
     if (index !== 0) {
