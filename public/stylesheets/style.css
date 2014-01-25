@@ -81,21 +81,19 @@ body {
   color: #FFF;
 }
 
-.square .main-mask .icons {
-  padding-top: 4%;
+.square .main-mask .social {
+  position: relative;
+  margin-top: 3%;
+  height: 40%;
 }
 
 .square .main-mask .icon {
   max-width: 6%;
-  padding-right: 2%;
-  vertical-align: bottom;
+  padding: 1% 1% 0 1%;
+  vertical-align: middle;
 }
 
-.square .main-mask img[alt='twitter'] {
-  max-width: 7%;
-}
-
-.square .main-mask img[alt='email'] {
+.square .main-mask img[alt='twitter'],.square .main-mask img[alt='email'] {
   max-width: 7%;
 }
 
@@ -151,7 +149,6 @@ a {
 
 .britt {
   background-color: #FFF;
-  color: #222;
 }
 
 .britt h1 {
@@ -161,14 +158,6 @@ a {
   margin: 0;
 }
 
-/*.britt a:link, .britt a:visited {
-  color: #222;
-}
-
-.britt a:hover, .britt a:active {
-  color: #222;
-}*/
-
 .beatcove {
   background-color: #000;
   color: #5D1885;
@@ -176,7 +165,7 @@ a {
 
 .beatcove h2 {
   font-family: "Josefin Sans", Helvetica, sans-serif;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
   padding-top: 20%;
   margin: 0;
@@ -195,7 +184,7 @@ a {
 
 .doodads h2 {
   font-family: "Architects Daughter", Helvetica, sans-serif;
-  font-size: 2.5em;
+  font-size: 2.8em;
   text-align: center;
   padding-top: 20%;
   margin: 0;
@@ -214,7 +203,7 @@ a {
 
 .cinnamin h2 {
   font-family: "Damion", Helvetica, sans-serif;
-  font-size: 2.8em;
+  font-size: 3em;
   text-align: center;
   padding-top: 20%;
   margin: 0;
@@ -243,6 +232,25 @@ a {
    -webkit-box-shadow: 0 0 5px #000;
    -moz-box-shadow: 0 0 5px #000;
    box-shadow: 0 0 5px #000;
+}
+
+.britt .main-mask .social .icon:hover {
+  padding: 1% 0 0 0;
+  transition: .7s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+#twitter:hover, #email:hover {
+  transition: .7s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.britt .main-mask .social .icon {
+  transition: .7s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
